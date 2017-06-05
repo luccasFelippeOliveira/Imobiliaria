@@ -1,0 +1,85 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    tools:context="com.luccas.imobiliaria.CadastrarFragment">
+
+    <TableRow
+        android:layout_width="match_parent">
+        <Spinner
+            android:layout_span="2"
+            android:layout_weight="1"
+            android:id="@+id/tipo_imovel_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent">
+        <EditText
+            android:id="@+id/numero_quartos_edit"
+            android:hint="Nº quartos"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/area_construida_edit"
+            android:layout_weight="1"
+            android:hint="Área construída"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent">
+        <EditText
+            android:id="@+id/valor_edit"
+            android:hint="Valor do Imovel"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent">
+        <EditText
+            android:id="@+id/localizacao_edit"
+            android:hint="Localização"
+            android:layout_weight="1"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent">
+        <EditText
+            android:id="@+id/observacao_edit"
+            android:hint="Observação"
+            android:layout_weight="1"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent">
+        <Button
+            android:id="@+id/salvar_imovel_button"
+            android:text="Salvar"
+            android:layout_weight="1"
+            />
+    </TableRow>
+
+</TableLayout>

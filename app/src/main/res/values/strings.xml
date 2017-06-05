@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Imobiliaria</string>
+    <string name="open_navigation_drawer">Open Navigation Drawer</string>
+    <string name="close_navigation_drawer">Close Navigation Drawer</string>
+
+    <string-array name="tipo_imovel_array">
+        <item>Tipo do Imovel</item>
+        <item>Casa</item>
+        <item>Aparatamento</item>
+        <item>Comercial</item>
+        <item>Terreno</item>
+    </string-array>
+
+</resources>
